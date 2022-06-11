@@ -1,0 +1,15 @@
+package prodaptstructures;
+
+public class SimpleInterest {
+	static int p;
+	static int r;
+	static int t;
+	static int SI;
+	int Tot;
+	void prcss(int p,int r,int t) {
+		SI = (p*t*r)/100;
+		System.out.println("Simple Interest: "+SI);
+		Tot = p+SI;
+		System.out.println("Total amount to be paid: "+Tot);
+	}
+}

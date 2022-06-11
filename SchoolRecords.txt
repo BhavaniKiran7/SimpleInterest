@@ -1,0 +1,18 @@
+package prodaptstructures;
+
+public class SchoolRecords {
+	String name;
+	int id;
+	String address;
+	void ddRecords(int id,String name, String address)
+	{
+		System.out.println("Add School id: "+id);
+		System.out.println("Add School name: "+name);
+		System.out.println("Add School address: "+address);
+	}
+	void dispRecords() {
+		System.out.println("Display id: "+id);
+		System.out.println("Display name: "+name);
+		System.out.println("Display address: "+address);
+	}
+}

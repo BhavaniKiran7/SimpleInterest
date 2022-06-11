@@ -1,0 +1,30 @@
+package prodaptstructures;
+
+public class SchTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SchoolRecords r = new SchoolRecords();
+		r.id = 1;
+		r.name = "Kiran";
+		r.address = "Chennai";
+		r.ddRecords(1,"Kiran","Chennai");
+		r.dispRecords();
+		
+		
+		SchoolRecords r1 = new SchoolRecords();
+		r1.id = 2;
+		r1.name = "Kirshna";
+		r1.address = "Chennai";
+		r1.ddRecords(2,"Kirshna","Chennai");
+		r1.dispRecords();
+		
+		SchoolRecords r2 = new SchoolRecords();
+		r2.id = 3;
+		r2.name = "Amruth";
+		r2.address = "Chennai";
+		r2.ddRecords(3,"Amruth","Chennai");
+		r2.dispRecords();
+	}
+
+}

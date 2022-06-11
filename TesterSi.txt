@@ -1,0 +1,11 @@
+package prodaptstructures;
+
+public class TesterSi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SimpleInterest s = new SimpleInterest();
+		s.prcss(10000,10,1);
+	}
+
+}
